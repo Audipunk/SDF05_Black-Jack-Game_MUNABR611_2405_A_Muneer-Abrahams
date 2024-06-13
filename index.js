@@ -39,29 +39,30 @@ function renderGame() {
 
     cardsEl.textContent = "Cards: " +  cards[0] + " " + cards[1]
     for (let i = 0; i < cards.length; i++) {
-        cardsEl.textContent += cards[i] + " "    }
+        cardsEl.textContent += cards[i] + " "    
+    }
     sumEl.textContent = "Sum: " + sum
  if (sum <= 20) {
-    console.log("Do you want to draw a new card?")
+    message = "Do you want to draw a new card?")
 } else if (sum === 21) {
-    console.log("You've got Blackjack!")
+    message = "You've got Blackjack!")
     hasBlackJack = true
 } else {
-    console.log("You're out of the game!")
+    message = "You're out of the game!")
     isAlive = false
 }
 
 messageEl.textContent = message
+
 }
 
 
 function newCard() {
     if (isAlive === true && hasBlackJack === false) {
-let card =  getRandomCard()
-sum += card
-cards.push(card)
-renderGame()
-
+        let card =  getRandomCard()
+        sum += card
+        cards.push(card)
+        renderGame()
  }
 
 }
