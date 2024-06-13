@@ -13,10 +13,8 @@ h1 {
 }
 
 #message-el {
-font-style: italic;
-
+    font-style: italic;
 }
-
 
 button {
     color: #016f32;
