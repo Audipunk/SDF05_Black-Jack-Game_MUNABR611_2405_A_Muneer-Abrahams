@@ -1,11 +1,10 @@
 body {
-font-family: 'Trebuchet MS';
-background-image: url("black jack table.jpg");
-background-size: cover;
-font-weight: bold;
-color: rgba(229, 235, 230, 0.952);
-text-align: center;
-
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    background-image: url("images/black jack table.jpg");
+    background-size: cover;
+    font-weight: bold;
+    color: white;
+    text-align: center;
 }
 
 h1 {
